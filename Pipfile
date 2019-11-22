@@ -6,11 +6,14 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-flask = "*"
-json = "*"
-render-template = "*"
 request = "*"
 gunicorn = "*"
+json = "*"
+python-decouple = "*"
+flask = "*"
+load-dotenv = "*"
+cors = "*"
+jsonconversion = "*"
 
 [requires]
 python_version = "3.7"
